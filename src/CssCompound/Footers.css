@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+.snav{
+    height: 337px;
+    /* background-color: rgba(0, 0, 0, 0.678);
+     */
+     background-color: black;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    /* left: -5px; */
+     margin-top: -20%;
+    /* top: 7px; */
+    bottom: 7px;
+    display: inline-table;
+    /* display: none; */
+}
+.cchh1{
+    color: white;
+    font-size: 26px;
+    font-family: "PT Sans Caption",sans-serif;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.snavbox1{
+    
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 0%;
+    padding-top: -1%;
+    /* margin: 30px; */
+    position: absolute;
+    top: 59px;
+
+}
+
+.snavbox2{
+    display: flex;
+    flex-direction: row;
+    width: 34%;
+    margin-left: 53%;
+    margin-top: 8px;
+    padding-top: 60px;
+}
+.sbox1{
+    /* border: 2px solid blue; */
+    
+    width: 78%;
+    height: 220px;
+    padding-left: 45px;
+
+}
+
+
+.sbox1 li{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+.sbox1 a{
+    text-decoration: none;
+    display: flex;
+}
+.sbox1 h3{
+    /* text-align: center; */
+    margin-top: 0px;
+    margin-left: 18px;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+.sbox1 a img{
+       width: 26px;
+    height: 27px;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.snav{
+    height: 768px;
+    margin-top: 0px;
+}
+.snavbox2 {
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 53%; */
+    /* margin-top: 8px; */
+    /* padding-top: 60px; */
+    margin: auto;
+    /* padding-top: 61%; */
+    position: absolute;
+    top: 184px;
+}
+
+.sbox1{
+    width: 78%;
+    height: 161px;
+}
+.snavbox1{
+    width: 75%;
+    margin-left: 1%;
+}
+.sbox1 h3 {
+    text-align: start;
+    padding-left: 8px;
+    margin-left: 0px;
+   
+}
+
+
+
+}

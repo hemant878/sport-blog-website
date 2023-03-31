@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+.funh1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+
+}
+.boxw1img{
+    width: 90%;
+    height: auto;
+}
+.ssbox{
+    background-color: black;
+}
+.boxw{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    max-width: 1205px;
+    flex-wrap: wrap;
+}
+.www{
+    display: none;
+}
+.boxw1 h3{
+    
+    width: 90%;
+    margin-bottom: 33px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.headh{
+    margin: auto;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    padding: 15px;
+    /* width: 66%; */
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    color: black;
+    font-size: 34px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    color: white;
+}
+.boxw1{
+  
+    width: 100%;
+    max-width: 370px;
+    margin-left: 24px;
+    background-color: white;
+    margin-bottom: 35px;
+    text-align: center;
+    height: fit-content;
+}
+.boxbtn55{
+    margin-left: 50%;
+    padding: 14px;
+    font-size: 22px;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 22px;
+}
+
+@media (max-width:800px) {
+    .www{
+       display: none;
+    }
+    .nntweet{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 22px;
+    }
+    .subwww2 img{
+        width: 76%;
+        height: 50px;
+        margin-top: 0px;
+        border-radius: 50px;
+    }
+    .subwww2{
+        width: 20%;
+    }
+    .subwww1{
+        width: 80%;
+    }
+    .subwww1 h1{
+        font-size: 21px;
+    }
+
+  .boxw{
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    /* margin-left: 0px; */
+    margin: auto;
+    border-bottom: none;
+    border: none;
+
+  }
+    
+  .boxw1{
+    width: 100%;
+    border-bottom: 2px groove black;
+    margin-left: auto;
+    margin: auto;
+    background-color: white;
+    /* margin-left: 0px; */
+    margin-bottom: 17px;
+    max-width: 94%;
+  }
+  .boxw1img {
+     margin-top: 29px;
+     width: 100%;
+     height: 286px;
+     margin-bottom: 24px;
+
+}
+.boxw1 h3 {
+    width: 99%;
+    padding-top: 10px;
+    margin-left: 18px;
+    color: black;
+    font-weight: 100;
+    font-size: 18px;
+    display: none;
+    
+}
+.ssboxn{
+ 
+    /* background-color: lavender; */
+    height: 2400px;
+    margin-top: -21px;
+    padding-top: 45px;
+
+}
+.headhn{
+    display: none;
+}
+.boxbtn55 {
+   margin-bottom: 0px;
+   margin-left: 0px;
+    margin: 10%;
+    width: 80%;
+}
+}

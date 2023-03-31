@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+.sport1 img{
+    width: 100%;
+}
+.subsport2 img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.sport{
+  
+    width: 80%;
+    margin-left: 14%;
+    /* border-top: 1px solid black;
+    border-top-style: dashed; */
+    padding-top: 20px;
+   margin: auto;
+    
+    
+}
+.subsport2n{
+    display: flex;
+    padding-top: 40px;
+}
+.subsport2nn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sport2{
+  
+   width: 100%;
+    /* margin-left: 23px; */
+  
+}
+.subsport2{
+    width: 90%;
+    margin: auto;
+}
+.cricket1{
+    width: 55%;
+}
+.cricket2{
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+}
+.cricket2h1{
+    text-align: right;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+    /* letter-spacing: -4px; */
+    font-family: 'Anton', sans-serif;
+   letter-spacing: 1px;
+
+
+
+}
+
+.cricket2p{
+    text-align: right;
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.cricket2h11{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    /* letter-spacing: -4px; */
+    /* line-height: 130%; */
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+   letter-spacing: 1px;
+
+
+}
+.cricket2p11{
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.cricketpro2{
+    position: absolute;
+    bottom: 92px;
+    max-height: 67%;
+    max-width: 30%;
+    padding: 0 1.4em 1.2em;
+    right: 12%;
+}
+.cricketpro2n{
+    position: absolute;
+    bottom: 0%;
+    max-height: 65%;
+    max-width: 30%;
+    padding: 0 1.4em 1.2em;
+    right: 12%;
+
+}
+.cricketbox1{
+    background-color: aqua;
+
+}
+.cricketbox1 h1{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 14px;
+
+}
+.cricketbox2{
+    background-color: white;
+    
+}
+.cricketbox2 h1{
+    font-weight: bolder;
+    padding: 15px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+   border-bottom: 5px solid black;
+    width: 95%;
+    margin-left: 9px;
+    color: black;
+    
+}
+.cricketbox2 h1:hover{
+    color: #0066FF;
+}
+.cricket2h11:hover{
+    color: #0066FF;
+
+}
+.cricket2h1:hover{
+    color: #0066FF;
+
+}
+.cricket2h11:hover{
+    color: #0066FF;
+
+}
+.cricket2h1:hover{
+    color: #0066FF;
+
+}
+.ironman h1:hover{
+    color: #0066FF;
+
+}
+.cricketbox3{
+    background-color: white;
+    
+    
+}
+.cricketbox3 p{
+    padding: 15px;
+    color: black;
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 100;
+}
+
+.sport1{
+    width: 100%;
+    
+    
+    
+}
+.sporth3{
+    margin-left: 15%;
+    /* border-top: 2px solid black;
+    border-top-style: groove; */
+    width: 70%;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* .subsport2 h3{
+    color: white;
+}
+.sport1 p,h1{
+    color: white;
+} */
+.ironman{
+    width: 37%;
+    position: relative;
+    bottom: 444px;
+    margin-left: 15px;
+    background-color: white;
+}
+.ironmandiv{
+    height: 44px;
+    padding-left: 28px;
+    background-color: aqua;
+    padding-top: 13px;
+    font-weight: bolder;
+    color: blue;
+    
+}
+
+.ironman p{
+    position: relative;
+    font-family: 'PT Sans Caption', sans-serif;
+
+    bottom: 51px;
+    width: 88%;
+    margin-left: 6%;
+    color: black;
+}
+.ironman h1{
+   color: black;
+    margin-top: -5px;
+    margin-bottom: 61px;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    width: 87%;
+    margin-left: 4%;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.headline{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    letter-spacing: 10px;
+    font-size: 27px;
+    
+}
+
+@media (max-width:999px) {
+    .sporth3{
+        margin-left: 5%;
+      
+        width: 80%;
+    }
+    .subsport2n {
+    padding-top: 20px;
+     }
+
+    .cricketbox3 p {
+        margin-left: 2%;
+    }
+    .sport2{
+        width: 100%;
+        /* max-width: 400px; */
+        margin-left: 0px;
+        margin: auto;
+        margin-top: 13px;
+        margin-bottom: 32px;
+    }
+    .subsport2 {
+        
+            /* max-width: 307px; */
+            width: 100%;
+            /* margin-bottom: 26px; */
+       
+    }
+    .sporthead{
+        color: black;
+    }
+    .sportpara{
+        color: black;
+    }
+    .sport{
+        display: block;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .sport1 {
+        width: 100%;
+        border-bottom: 1px solid black;
+        border-bottom-style: dashed;
+    }
+    /* .subsport2 h3{
+        color: white;
+    }
+    .sport1 p,h1{
+        color: white;
+    } */
+
+
+    .cricketpro2 {
+        display: block;
+      
+        position: initial;
+        /* bottom: 0%; */
+        max-height: 100%;
+        max-width: 100%;
+        padding: 0;
+        /* right: 12%; */
+    }
+    .subsport2n {
+        display: block;
+    }
+    .cricket1 {
+      
+            width: 90%;
+            margin: auto;
+       
+    }
+    .cricket2 {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+    }
+    .subsport2nn {
+        display: block;
+        /* flex-direction: row-reverse; */
+    }
+    .cricket2h1 {
+        text-align: left;
+       
+    }
+    .cricket2p {
+        text-align: left;
+        
+    }
+    .subsport2 img {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    /* .cricketpro2 {
+        position: initial;
+        
+        max-height: 0;
+        max-width: 0%;
+        padding: 0 0 0;
+        right: 0;
+    } */
+   .cricketbox1 h1{
+    margin-top: -6px;
+   }
+   .cricket2p11 {
+    color: #000;
+    display: none;
+  }
+   .cricket2h11 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+   .cricket2h1 {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+   .cricket2p{
+     display: none;
+    }
+   .ironman {
+    width: 100%;
+    margin-top: -2px;
+   position: initial;
+   margin-left: 0px;
+   bottom: 0px;
+}
+.ironman h1 {
+    font-size: 23px;
+    margin-left: 4%;
+    width: 94%;
+}
+ .ironman p {
+    margin-left: 6%;
+}
+ .ironmandiv {
+    margin-top: -7px;
+}   
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+    .cricketpro2 {
+        position: absolute;
+        bottom: 264px;
+    
+        max-height: 67%;
+        max-width: 34%;
+        padding: 0 1.4em 1.2em;
+        right: 12%;
+        font-size: 13px;
+    }
+  }

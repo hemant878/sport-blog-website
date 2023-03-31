@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sudomain{
+    display: flex;
+    width: 100%;
+}
+
+
+.sudo1{
+    /* border: 2px solid red; */
+    width: 70%;
+    
+}
+.sudo2{
+    /* border: 2px solid blue; */
+    width: 30%;
+}
+.subsudo1{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    /* border-bottom: .5px solid black; */
+    /* border-bottom-style: dashed; */
+}
+
+
+.ss{
+    /* width: 70%; */
+    width: 60%;
+    /* margin-left: 30px; */
+    margin-left: 150px;
+    border-bottom: 1px solid black;
+    border-bottom-style: dotted;
+}
+.im img{
+    width: 90%;
+    height: 140px;
+
+}
+.im{
+    width: 20%;
+}
+.f{
+    display: flex;
+}
+
+.subsudo2{
+    display: flex;
+    position: relative;
+    top: 150px;
+    
+}
+.ss1{
+    width: 60%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed;
+}
+.ss1 h2{
+
+    width: 80%;
+    /* font-size: 13px; */
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(41, 41, 41, 1);
+    
+}
+.ss1 p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.imgg{
+    width: 25%;
+    margin-top: 4px;
+}
+.imgg img{
+    width: 80%;
+    height: 70px;
+}
+.sudo2 h3{
+    position: relative;
+    top: 150px;
+    width: 65%;
+    height: 43px;
+    color: indianred;
+    border-bottom: 2px solid black;
+    margin-bottom: 18px;
+    /* border-style: dashed; */
+    /* border-bottom-style: dotted; */
+}
+.p9{
+    margin-top: 40px;
+    color: rgba(117, 117, 117, 1);
+}
+.p8{
+    
+    margin-top: 8px;
+    width: 93%;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 500;
+    /* line-height: 1px; */
+    font-size: 16px;
+}
+.h9{
+    width: 80%;
+    color: black;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+}
+.h9:hover{
+    color: dodgerblue;
+}
+.ss1 h2:hover{
+    color: #0066FF;
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .sudo2{
+        display: none;
+    }
+    .sudo1{
+        width: 100%;
+    }
+    .ss{
+        width: 70%;
+    }
+    .im{
+        width: 30%;
+    }
+    .ss h2{
+        font-size: 15px;
+    }
+    .ss p{
+        font-size: 14px;
+    }
+    .ss{
+        margin-left: 10px;
+    }
+    .im img {
+        width: 96%;
+        height: 100px;
+    }
+    .p9{
+        margin-top: 27px;
+    }
+}

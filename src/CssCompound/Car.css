@@ -1,0 +1,197 @@
+
+
+
+.mmq{
+    
+    /* padding: 72px; */
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 366px;
+    display: flex;
+}
+.mainspot{
+    background-color: rgb(210, 229, 247);
+    padding-bottom: 30px;
+}
+.headkk{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+
+.mainq1 img{
+ 
+    width: 100%;
+    /* margin-left: 6px; */
+    height: 294px;
+}
+.submainq22 img{
+    width: 50%;
+    margin-bottom: 5px;
+    height: 175px;
+    width: 42%;
+    margin-bottom: 5px;
+    height: 148px;
+}
+.submainq31 img{
+width: 100%;
+height: 82px;
+}
+.submainq22{
+    display: flex;
+}
+.submainq22 p{
+    
+    width: 100%;
+    /* margin-left: 38px; */
+    margin-left: 30px;
+    margin-right: 16px;
+    color: black;
+
+}
+.submainq31{
+    width: 50%;
+}
+.submainq3 h1{
+    font-size: 15px;
+}
+.submainq3 {
+    width: 130%;
+}
+.submainq2{
+    /* border-bottom: 1px solid black;
+    border-bottom-style: groove; */
+    width: 92%;
+}
+.mmq h3{
+    font-size: 33px;
+    /* border-top: 2px solid black;
+    border-top-style: groove; */
+    padding-bottom: 25px;
+}
+.mainqq1{
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+.mainqq2{
+    width: 100%;
+}
+.mainqq3{
+    width: 85%;
+}
+.mainq1 h1{
+  
+
+
+  
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    font-size: 18px;
+    margin-top: -4px;
+
+}
+.submainq2 h1{
+    padding: 15px;
+    color: black;
+}
+
+.submainq3 h1{
+    font-size: 22px;
+}
+.mainq1 p{
+    padding-top: 18px;
+    color: black;
+    font-size: 16px;
+    margin: 6px;
+    display: none;
+}
+.mmq h3{
+    padding-top: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.btn11{
+    margin-left: 75%;
+    /* padding-top: 15px; */
+    padding-bottom: 15px;
+}
+
+.subbtn11{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+@media (max-width:800px) {
+
+    .mainqq1 {
+        width: 100%;
+    }
+
+    .mainq{
+        display: block;
+        border: none;
+    }
+    .mmq{
+        margin: 0px;
+        height: auto;
+    }
+    
+.submainq22 img {
+    height: 119px;
+}
+.submainq3 p{
+    margin-right: 22px;
+}
+.submainq31{
+    margin-top: 33px;
+}
+.submainq31 img {
+    width: 100%;
+    height: 100px;
+}
+.mainqq2{
+    border-top: 2px solid black;
+    border-top-style: groove;
+}
+.submainq22 p {
+    width: 100%;
+    margin-left: 18px;
+    margin-block-start: 0px;
+}
+.mainq2{
+    margin-left: 4px;
+    border: none;
+}
+.mainq1{
+    border: none;
+}
+.mainq3{
+    margin-left: 18px;
+}
+.mainq1 img {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+}
+.mmq h3{
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed;
+}
+.submainq31 {
+    width: 65%;
+}
+.mainspot {
+
+    padding-bottom: 0px;
+}
+}
+    
+
+
